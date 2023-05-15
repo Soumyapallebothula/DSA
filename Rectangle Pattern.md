@@ -1,15 +1,17 @@
 Write the code to give the below pattern:
 
 Example Input:
-n = 5
+n = 6
+m = 6
 
 Output:
 
-*****
-*****
-*****
-*****
-*****
+\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*
+
 ```java
 
 import java.util.Scanner;
