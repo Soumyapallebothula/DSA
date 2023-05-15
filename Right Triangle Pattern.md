@@ -80,11 +80,12 @@ class Main{
 ```
 
 Print the below pattern:
-* * * * *<br>
-* * * * <br>
-* * * <br>
-* * <br>
-* <br>
+
+*****<br>
+****<br>
+***<br>
+**<br>
+*
 
 ``` JAVA
 import java.util.Scanner;
