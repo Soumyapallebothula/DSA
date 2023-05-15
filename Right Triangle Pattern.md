@@ -53,3 +53,28 @@ class Main{
 }
 ```
 
+Print Below Pattern:
+
+1<br>
+2 2 <br>
+3 3 3<br>
+4 4 4 4<br>
+5 5 5 5 5<br>
+
+```java
+import java.util.Scanner;
+class Main{
+    public static void main (String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i=0;i<n;i++){
+            
+            for(int j = 0; j <=i; j++)
+            {
+                System.out.print(i+1);
+            }
+             System.out.println();
+        }
+    }
+}
+```
