@@ -32,12 +32,13 @@ public class Main
 }
 ```
 Print the pattern below:
-
+```
 *********
  ******* 
   *****  
    ***   
     *    
+```
 
 ```java
 import java.util.Scanner;
