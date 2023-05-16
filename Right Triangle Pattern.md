@@ -105,7 +105,30 @@ class Main
     }
 }
 ```
+Print the below pattern:
+
+12345<br>
+1234<br>
+123<br>
+12<br>
+1<br>
 
 
+```java
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int n = sc.nextInt();
+	    for(int i=1;i<=n;i++){
+	     for(int j = 0 ; j<n-i+1;j++){
+	         System.out.print(j+1);
+	     }
+	     System.out.println();
+	 }
+	}
+}
+```
 
 
